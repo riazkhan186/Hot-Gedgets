@@ -39,6 +39,11 @@ body{
 
 /* smartphone */
 
+.smartphone{
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
 .header{
     font-size: 35px;
     font-weight: bold;
@@ -56,3 +61,78 @@ body{
     text-decoration: none;
 
 }
+
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.card h5,h2,p{
+    text-align: center;
+}
+.card-title .price{
+    font-weight: bold;
+}
+.card-text{
+    color: dimgray;
+    margin-bottom: 30px;
+}
+.card{
+    border: none;
+    border-radius: 18px;
+    box-shadow: 3px 3px 4px rgb(230, 221, 221);
+}
+
+
+
+
+.laptop{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+
+
+.categories{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    
+}
+.box{
+   
+    border-radius: 5px;
+   
+    box-shadow: 1px 1px 10px;
+    color: black;
+}
+
+.box img{
+    padding: 25px 20px;
+}
+.box .card-text{
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+/*<div class="card">
+              <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Samsung Galaxy Note10+</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h2 class="price">$799</h2>
+                <div class="card-footer d-flex justify-content-center pb-5">
+                  <button class="buy_now_button"> BUY NOW <i class="fas fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </div>*/
